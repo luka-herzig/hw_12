@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title {
+            color: salmon;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .title:hover {
+            color: chartreuse;
+            cursor: pointer;
+        }
+
+        .descroption {
+            color: blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .box {
+            width: 1100px;
+            height: 100px;
+            margin-right: 200px;
+            margin-left: 200px;
+            margin-top: 200px;
+            outline: solid red;
+            display: block;
+            animation-name: name;
+            animation-duration: 8s;
+            animation-delay: 6;
+        }
+
+        @keyframes name {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h1 class="title">Вітаю вас на моїй домашній роботі номер 12 по об'єктам! Одразу вибачте за помилки</h1>
+    <p class="descroption">Я вирішив трохи підняти вам настрій та згадати HTML та CSS</p>
+</div>
+    <script src="./main.js"></script>
+</body>
+</html>
